@@ -1,0 +1,106 @@
+.Error {
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+.heading {
+  font-size: 9.5rem;
+  text-align: center;
+  opacity: 0.35;
+  color: var(--primary-yellow);
+  font-family: var(--primary-font);
+  padding: 2rem 0;
+}
+
+.home {
+  font-size: 2rem;
+  color: var(--primary-yellow);
+  font-family: var(--primary-font);
+  text-align: center;
+  opacity: 0.35;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeButton {
+  color: #000000;
+  width: 160px;
+  height: 50px;
+  margin: 1.5rem 0;
+  background: var(--primary-yellow);
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transition);
+  cursor: pointer;
+  border-radius: 1rem;
+  border: none;
+}
+
+.homeButton:hover {
+  background: #131111;
+  color: var(--primary-white);
+  border: 3px solid var(--primary-yellow);
+}
+
+.homeButton:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .heading {
+    font-size: 12rem;
+  }
+  .home {
+    font-size: 2.5rem;
+  }
+  .homeButton {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 992px;
+  }
+  .heading {
+    font-size: 14rem;
+  }
+  .home {
+    font-size: 3rem;
+  }
+  .homeButton {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+  .heading {
+    font-size: 16rem;
+  }
+  .home {
+    font-size: 3.5rem;
+  }
+}

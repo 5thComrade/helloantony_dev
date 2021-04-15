@@ -1,0 +1,77 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-yellow: #f2cb05;
+  --primary-hover: #d94f30;
+  --primary-white: #ffffff;
+  --primary-font: "Allerta Stencil", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+  --transition: all 0.3s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#tsparticles {
+  height: 100vh;
+  width: 100vw;
+}
+
+.page {
+  position: absolute;
+  top: 4rem;
+  color: white;
+  font-family: var(--primary-font);
+  font-size: 8rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-white);
+  transition: var(--transition);
+}
+
+.active {
+  color: var(--primary-yellow);
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+}

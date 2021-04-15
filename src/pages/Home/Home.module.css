@@ -1,0 +1,111 @@
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: absolute;
+  top: 20%;
+}
+
+.container {
+  padding: 0 2rem;
+  width: 100%;
+  color: var(--primary-white);
+  font-family: var(--primary-font);
+}
+
+.container h1 {
+  font-size: 2.5rem;
+}
+
+.container span {
+  color: var(--primary-yellow);
+}
+
+.nextButton {
+  color: #000000;
+  width: 160px;
+  height: 50px;
+  margin: 1rem 0;
+  background: var(--primary-yellow);
+  font-family: var(--secondary-font);
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: none;
+}
+
+.nextButton:focus {
+  outline: none;
+}
+
+.nextButton:hover {
+  background: #131111;
+  color: var(--primary-white);
+  border: 3px solid var(--primary-yellow);
+}
+
+.skill {
+  border-right: 3px solid var(--primary-yellow);
+}
+
+.contactButton {
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
+  color: var(--primary-white);
+  cursor: pointer;
+}
+
+.contactButton:hover {
+  color: var(--primary-yellow);
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .container h1 {
+    font-size: 3rem;
+  }
+  .nextButton {
+    font-size: 1.3rem;
+  }
+  .contactButton {
+    bottom: 5%;
+    right: 10%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 992px;
+  }
+  .container h1 {
+    font-size: 3.5rem;
+  }
+  .nextButton {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+  .container h1 {
+    font-size: 4rem;
+  }
+  .nextButton {
+    width: 240px;
+    height: 64px;
+    font-size: 1.6rem;
+  }
+  .contactButton {
+    bottom: 10%;
+    right: 15%;
+  }
+}
