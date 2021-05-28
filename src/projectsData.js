@@ -1,7 +1,7 @@
 // import dbcocktail from "./assets/dbCocktail.PNG";
 // import shutter from "./assets/shutter.PNG";
-import dorun from "./assets/dorun_ha.PNG";
-import github from "./assets/github_users.PNG";
+// import dorun from "./assets/dorun_ha.PNG";
+// import github from "./assets/github_users.PNG";
 
 const data = {
   2021: [
@@ -10,7 +10,7 @@ const data = {
       name: "https://dorungroup.com/",
       description: "The corporate website of Dorun Group built using React.js",
       type: "Client Project",
-      img: dorun,
+      img: "https://cdn.jsdelivr.net/gh/5thComrade/helloantony_assets/dorun_ha.PNG",
     },
     {
       url: "https://g-ithub.netlify.app/",
@@ -18,7 +18,7 @@ const data = {
       description:
         "A simple github users finder with cool statistics and charts",
       type: "Course Project",
-      img: github,
+      img: "https://cdn.jsdelivr.net/gh/5thComrade/helloantony_assets/github_users.PNG",
     },
     // {
     //   url: "https://dbcocktail.tech/",
